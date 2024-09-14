@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Neutrogena</h1>
+            <h3>Shine Splended Skincare!</h3>
+        </div>
+        <div class= "container">
+            <a href="../index.html">Home</a>
+            <a href="about.html">about</a>
+            <a href="ContactUs.html">ContactUs</a>
+            <a href="inquiry.html">Inquiry</a>
+            <a href="profile.html">profile</a>
+            <button id=" submit_btn"><a href="login.html">login</a></button>
+        </div>
+
+    </header>
+    <section>
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="heading.html">Heading</a>
+                </li>
+            </ul>
+           
+            <ul>
+                <li>
+                    <a href="table.html">Tables</a><br><br>
+                </li>
+            </ul>
+
+        <ul>
+            <li>
+                <a href="forms.html">Forms</a>
+            </li>
+        </ul>
+        
+        <ul>
+            <li>
+                <a href="images.html">Images</a>
+            </li>
+        </ul> 
+        <ul>
+            <li>
+                <a href="./list.html">List</a>
+            </li>
+        </ul>
+    </nav>
+   
+    <article>
+        <h1> <B>HTML FORM</B></h1>
+        <div class="form-div">
+            <div class="form1">
+                <form action="list.html" method="get">
+                   <label for=""><b>First Name:</b></label>
+                   <input type = "text" name = "fname"id="fname" /><br>
+                   <label for=""><b>Last name:</b></label>
+                   <input type = "text" name = "lname" id="lname" /><br>
+                   <hr></hr>
+                   <label for=""><b>Gender</b></label><br>
+                   <input type="checkbox" name="gender" id="gender"> Female <br>
+                   <input type="checkbox" name="gender" id="gender"> Male <br>
+                   <label for=""><b>Birthdate:</b></label>
+                   <input type="date" name="datenow" id="datenow"><br>
+                   <label for=""><b>Email Account:</b></label>
+                   <input type="email" name="emailAdd" id="emailAdd" required> <br>
+                   <label for=""><b>Button</b></label>
+                   <input type="button" value="Example"><br>
+                   <label for=""><b>Color:</b></label>
+                   <input type="color" name="colorname" id="colorname"><br>
+                   <label for=""><b>Upload File:</b></label>
+                   <input type="file" name="filedata" id="filedata"><br>
+                   <label for=""><b>Date Time Data:</b></label>
+                   <input type="datetime" name="datetimeData" id="datetimeData"><br>
+                   <label for=""><b>Password:</b></label>
+                   <input type="password" name="passwordData" id="passwordData">
+                   <label for=""><b>Selection:</b></label>
+                   <select name="" id="">
+                      <option value="" disabled selected>--Choose a Fruit--</option>
+                      <option value="">Strawberry</option>
+                      <option value="">Banana</option>
+                      <option value="">Corn</option>
+                      <option value="">Pomelo</option>
+                   </select>
+                   <br>
+                   <button disabled>Disabled Button</button><br>
+                   <label for=""><b>Language:</b></label><br>
+                   <fieldset>
+                      <input type="radio" id='english'>
+                      <label for="english">English</label>
+                      <input type="radio" id='english'>
+                      <label for="english">Hindi</label>
+                      <input type="radio" id='english'>
+                      <label for="english">Tagalog</label>
+                      <input type="radio" id='english'>
+                      <label for="english">French</label>
+                   </fieldset>
+                   <br>
+                   <fieldset>
+                       <textarea name="" id="" value="Please Input Your Message" placeholder="Please Input Your Message Here......"></textarea>
+                   </fieldset>
+                   <br>
+                   <label for=""><b>Data List:</b></label>
+                   <input list="values" name="answer">
+                   <!-- HTML datalist -->
+                   <datalist id="values">
+                      <option value="HTML">HTML</option>
+                      <option value="CSS">CSS</option>
+                      <option value="JavaScript">JavaScript</option>
+                      <option value="C#">C#</option>
+                      <option value="PHP">PHP</option>
+                   </datalist>
+    
+    
+                   <br><br><br>
+                   <input type = "submit" value="Submit">
+                </form>
+    
+                <fieldset>
+                    <legend><b>Caption</b></legend>
+                    <p>This is an example Legend Format</p>
+                </fieldset>
+            </div>
+            
+            <div class="form 2"></div>
+                 <form action="form.post.php" method="post">
+                <fieldset>
+                    <legend><b>Form Input Data</b></legend>
+                    <label for="">Enter Your Name</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="">Enter Your Age</label>
+                    <input type="number" name="age" id="age"><br>
+                    <label for="">Input Month:</label>
+                    <input type="month" name="datamonth" id="datamonth"><br>
+                    <label for="">Date:</label>
+                    <input type="date" name="dataDate" id="dataDate"><br>
+                    <label for="">Week:</label>
+                    <input type="week" name="dataWeek" id="dataWeek"><br>
+                    <label for="">Time:</label>
+                    <input type="time" name="dataTime" id="dataTime"><br>
+                    <input type="submit" value="submit">
+    
+                </fieldset>
+                </form>
+            </div>
+        </div>
+        
+    </article>
+    
+</section>
+
+<footer>
+    <h2>ShineSplendedSkincare!</h2>
+
+    <div>
+        <a href="AboutUs.html">About Us</a>|
+        <a href="RefundPolicy.html">Refund Policy</a>|
+        <a href="TermsOfUse.html">Terms Of Use</a>|
+        <a href="PrivacyAndPolicy.html">Privacy And Policy</a>|     
+   </div>
+    <div>
+        <p>
+            COPYRIGHT 
+        </p>
+    </div>
+</footer>
+</body>
+</html>

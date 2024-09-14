@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Login Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #8f115c67;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .login-form {
+            width: 30%;
+            background-color: rgba(30, 54, 192, 0.21);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(123, 78, 78, 0.1);
+            box-sizing: border-box;
+        }
+
+        .login-form h2 {
+            color: #ff00a293;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-form label {
+            color: #d1424289;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ca15158d;
+            color: #850707;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #004494;
+        }
+        a{
+            text-decoration: none;
+            color: rgba(49, 6, 6, 0.378);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="login-form">
+        <div align="center">
+            <h4><a href="../index.html">Home</a></h4>
+        </div>
+       
+        <h2>Login</h2> 
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
